@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT __ROOT__ ANY>
+
+<!ATTLIST __ROOT__ Version CDATA #REQUIRED>
+
+  <!ELEMENT gameBase (Tables)>
+    <!ATTLIST gameBase tbCount CDATA "0">
+    <!ELEMENT Tables (Table*)>
+        <!ELEMENT Table (id,State,players,deck,betCredits)>
+            <!ELEMENT id (#CDATA)>
+            <!ELEMENT State (#CDATA)>
+            <!ELEMENT Players (Player+)>
+                <!ELEMENT Player (id,state,credits,handCards)>
+                    <!ELEMENT credits (#CDATA)>
+                    <!ELEMENT handCards (Card*)>
+            <!ELEMENT deck (Card*)>
+                <!ELEMENT Card (type,number)>
+                    <!ELEMENT type (#CDATA)>
+                    <!ELEMENT number (#CDATA)>
+            <!ELEMENT betCredits (bet)>
+                <!ELEMENT bet (#CDATA)>
+                <!ATTLIST bet id CDATA "0">
+                <!ATTLIST bet pay CDATA "0">
+
+  
+

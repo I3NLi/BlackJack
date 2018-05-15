@@ -1,0 +1,11 @@
+12:46:42.306	SERVER	admin	OK	Server was started (port: 1984).
+12:47:06.338	127.0.0.1:55572	admin	ERROR	Access denied.	152.82 ms
+12:47:28.811	127.0.0.1:55586	admin	ERROR	Access denied.	116.72 ms
+12:48:54.060	SERVER	admin	OK	Server was started (port: 1984).
+12:49:15.094	127.0.0.1:59087	admin	ERROR	Access denied.	105.42 ms
+12:49:23.383	127.0.0.1:59088	admin	ERROR	Access denied.	8391.68 ms
+12:49:31.298	127.0.0.1:59096	admin	ERROR	Access denied.	8024.21 ms
+12:52:49.516	SERVER	admin	OK	Server was started (port: 1984).
+12:52:51.740	SERVER	admin	OK	Server was stopped (port: 1984).
+12:52:54.717	SERVER	admin	OK	Server was started (port: 1984).
+12:52:59.648	127.0.0.1:59112	admin	ERROR	Access denied.	123.03 ms

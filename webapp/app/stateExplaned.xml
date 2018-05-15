@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StateExpl>
+<TableState>
+    <state>
+        <id>1</id>
+        <explanation>Game started with/without player, round not started yet, waiting players to join. Joined player can set bet, nobody confirmed yet</explanation>
+    </state>
+    <state>
+        <id>2</id>
+        <explanation>All players set bet and confirmed (Dealed). Dealer draws card, player can hit/stand. NO player can JOIN now</explanation>
+    </state>
+    <state>
+        <id>3</id>
+        <explanation>All players stand/bursted. Dealer start draw more card(s)</explanation>
+    </state>
+    <state>
+        <id>4</id>
+        <explanation>Dealer stand or ever dealer has >21. GameWin progress</explanation>
+    </state>
+</TableState>
+<PlayerState>
+    <state>
+        <id>0</id>
+        <explanation>ONLY FOR PLAYER 0 (Dealer) When dealer got A for the first card. => Ask for insurance</explanation>
+    </state>
+    <state>
+        <id>1</id>
+        <explanation>Choose bet credits amount, not confirmed yet</explanation>
+    </state>
+    <state>
+        <id>2</id>
+        <explanation>Bet confirmed, waiting other players to confirm</explanation>
+    </state>
+    <state>
+        <id>3</id>
+        <explanation>Hitting, can hit/draw card</explanation>
+    </state>
+    <state>
+        <id>4</id>
+        <explanation>Bursted, cannot hit anymore</explanation>
+    </state>
+    <state>
+        <id>5</id>
+        <explanation>Stand, cannot hit anymore</explanation>
+    </state>
+    <state>
+        
+    </state>
+</PlayerState>
+</StateExpl>
